@@ -1,0 +1,259 @@
+* {
+  font-family: sans-serif;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.btn_2 {
+  display: inline-block;
+  color: inherit;
+  margin-left: 2rem;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+.navbar-nav li {
+  margin: 0 0.5rem;
+}
+
+.justify_2 {
+  justify-content: end;
+}
+
+.justify {
+  justify-content: center;
+}
+
+.btn-outline-secondary:hover {
+  color: #D17CDF;
+  background-color: #000000;
+}
+
+.btn-outline-secondary {
+  color: white;
+  border-color: #D17CDF;
+  background-color: #D17CDF;
+  padding: 0.5rem 1.7rem;
+  margin: 0 1rem;
+  margin-top: 0.7rem;
+  transition: all 0.3s linear;
+}
+
+.btn-outline-success {
+  color: #000000;
+  border-color: #D17CDF;
+  padding: 0 1rem;
+  transition: all 0.3s linear;
+  margin-top: 0.7rem;
+}
+
+.btn-outline-success:hover {
+  background-color: #000000;
+  color: #D17CDF;
+}
+
+.hero_sec {
+  margin-top: 4rem;
+}
+
+.hero_text {
+  align-items: center;
+  padding: 5rem 3rem;
+}
+.hero_text h2 {
+  font-size: 3.5rem;
+}
+.hero_text a {
+  padding: 0.5rem 1.3rem;
+}
+
+.hero_img img {
+  width: 100%;
+}
+
+.padding {
+  padding: 0 0.5rem;
+}
+
+.font_size {
+  font-size: 1.3rem;
+}
+
+.list {
+  background-color: #B772FF;
+  color: white;
+}
+.list ul {
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 1.5rem 0;
+}
+
+.courses {
+  margin: 3rem 0;
+}
+.courses input {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 0.3rem 1rem;
+  width: 28%;
+}
+.courses h4 {
+  text-align: center;
+}
+
+.courses_inner {
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .courses_inner input {
+    width: 70%;
+  }
+}
+.benefits img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem 0.5rem;
+  border-radius: 2.3rem;
+}
+
+.inner img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 1rem 0.5rem;
+  border-radius: 2.3rem;
+}
+
+span {
+  color: #B772FF;
+}
+
+.style {
+  padding: 0 1rem;
+}
+.style figcaption {
+  padding: 0.5rem 1rem;
+  background-color: #FAF5FC;
+}
+
+.text h4 {
+  padding: 0 1.2rem;
+}
+
+.cards_sec {
+  background: rgb(183, 114, 255);
+  background: linear-gradient(141deg, rgb(183, 114, 255) 65%, rgb(222, 130, 207) 69%);
+}
+
+.text_inner {
+  padding: 1.5rem;
+  text-align: center;
+}
+.text_inner p {
+  margin: 0 4rem;
+}
+
+.card {
+  width: 80%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  margin: 1rem 3rem;
+}
+.card img {
+  border-radius: 1.5rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-text {
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.main_info {
+  padding: 2rem 3rem;
+  margin: 2rem 0;
+}
+
+.main_text {
+  width: 70%;
+}
+
+.ul_inner {
+  padding: 1rem;
+}
+
+.ul_right {
+  padding: 1rem;
+}
+
+.main_ul {
+  width: 70%;
+}
+
+.main_info_img img {
+  background: rgb(183, 114, 255);
+  background: linear-gradient(102deg, rgb(183, 114, 255) 43%, rgb(222, 130, 207) 63%);
+  width: 100%;
+  border-radius: 1.5rem;
+  margin: 1rem;
+}
+
+.last_sec {
+  background: rgb(183, 114, 255);
+  background: linear-gradient(141deg, rgb(183, 114, 255) 65%, rgb(222, 130, 207) 69%);
+}
+.last_sec .card {
+  width: 80%;
+  height: 16rem;
+}
+
+.text_last {
+  text-align: center;
+  padding: 3rem;
+}
+.text_last p {
+  margin: 0 4rem;
+}
+
+.card_img img {
+  width: 40%;
+  border-radius: 50rem;
+}
+
+.card_ineer h5 {
+  padding: 1.5rem;
+}
+
+.bgc_pink {
+  background-color: #D17CDF;
+}
+
+.color_white {
+  color: white;
+}
+
+.bgc_light {
+  background-color: #E8D1FE;
+}
+
+.color_pink {
+  color: #D17CDF;
+}/*# sourceMappingURL=main.css.map */
